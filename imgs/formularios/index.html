@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Registrate</h1>
+    <form method="POST" action="recepcionformulario.html">
+    
+        <div>
+                <label for="Nombre">Nombre:</label>
+                <input type="text" name="Nombre" placeholder="Introduce tu nombre" minlength="3" maxlength="30" pattern="[a-zA-Z ]*" required>
+
+        </div>
+         <div>
+                <label for="Email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Introducir email:" required>
+         </div>
+         <div>
+                <label for="edad">Edad:</label>
+                <input type="number" name="edad" id="edad" id="edad" placeholder="Introduce tu edad" min="14" max="99" required>
+
+         </div>
+        <div>
+            <h3>Sexo</h3>
+            <div><input type="radio" name="Sexo" id="m" value="1"> <label for="Sexo1">M</label></div>
+            <div><input type="radio" name="Sexo" id="f" value="2"> <label for="Sexo2">F</label></div>
+            <div><input type="radio" name="Sexo" id="p" value="3"> <label for="Sexo3">papi</label></div>
+
+        </div>
+        <div>
+            <h3>colores favoritos</h3> <input type="checkbox" name="color" id="Rojo" value="rojo"> <label for="Rojo">Rojo</label>
+            <input type="checkbox" name="color" id="Azul" value="6"> <label for="Azul">Azul</label>
+            <input type="checkbox" name="color" id="verde" value="66"> <label for="verde">verde</label>
+            <input type="checkbox" name="color" id="gris" value="666"> <label class="aloancho" for="gris">gris</label>
+            <input type="checkbox" name="color" id="turquesa" value="6666"> <label for="turquesa">turquesa</label>
+            <input type="checkbox" name="color" id="morado" value="none"> <label for="morado">morado</label>
+
+        </div>
+        <div>
+            <label for="pais" id="pais">pais</label>
+            <select name="Pais" id="pais"><option value="0" disabled selected>seleccionar pais</option> <option value="1">1</option>1 <option value="2">2</option><option value="3">3</option></select>
+
+        </div>
+        <div>
+            <label for="cuentame">Hablame de ti</label> <textarea name="hablame de ti" id="tu">no quiero</textarea>
+        </div>
+        <div>
+            <button>Registrate</button>
+        </div>
+    </form>
+</body>
+</html>

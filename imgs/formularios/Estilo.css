@@ -1,0 +1,15 @@
+body{font-family: 'Courier New', Courier, monospace;
+font-size: 14px; color: aliceblue; background: black; text-align: center; margin: 10px; padding: 30px; border: 0px;}
+input{border-radius: 10px;}
+label{width: 1000px; display: inline-block;}
+input[type=text], #name{width: 100px;border: 3px solid black; padding: 5px; background-image: url(./contacto.svg);background-repeat: no-repeat;padding-left: 30px;}
+input[type=text], #phone{width: 100px;border: 3px solid black; padding: 5px; background-image: url(./moviljeje.svg); background-repeat: no-repeat;padding-left: 30px;}
+input[type=email]{width: 100px; border: 3px solid black; padding: 5px; background-image: url(./263093.svg); background-repeat: no-repeat;padding-left: 30px; }
+input[type=password]{width: 100px; border: 3px solid black; padding: 5px; background-image: url(./llave.svg); background-repeat: no-repeat; padding-left: 30px;}
+input[type=checkbox]{width: auto; border: 3px solid white; padding: 5px;} 
+button{padding: 20px 5px; border-radius: 5px; background: green; color: blueviolet; border: aliceblue; font-size: 2em;}
+.der{text-align: right;}
+.izk{text-align: left;}
+form > div{margin: 10px;}
+a{color: orange;}
+a:hover{color: mediumvioletred;}

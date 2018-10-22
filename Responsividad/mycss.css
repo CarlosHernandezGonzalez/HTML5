@@ -1,0 +1,14 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    color: aliceblue;
+    border: gray 10px;
+
+}
+header>div{width: 18%;height:20px;background: red; display:inline-block}
+header>h1{width: 81%;height:20px;background: blue; display:inline-block}
+section>div{width: 32%;height: 14px;border: 2px; background: gold; display: inline-block;}
+section>nav{width: 32%;height: 14px;border: 2px; background: green; display: inline-block;}
+article{width: 100%; height: 14px;border: 2px; background: gray; display: inline-block; }
+footer{width: 100%;height: 18px;border: hidden 1px; background: hotpink; display: inline-block;}
+@media screen and (min-width: 360, max-width:855px){header>div,header>h1{width: 100%}}

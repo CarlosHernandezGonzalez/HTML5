@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crear una cuenta</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <h1>Create an Account</h1>
+    <form action="tupapa.html" method="post">
+        <div>
+
+            <input type="text" name="name" id="name" placeholder="Name" minlength="3" maxlength="30" pattern="[a-zA-Z ]*"
+                required class="contacto">
+
+        </div>
+        <div>
+
+            <input type="text" name="number" id="number" placeholder="Phone number" min="9" max="9" pattern="[0-9]*"
+                required>
+        </div>
+        <div>
+
+            <input type="email" name="Email" id="email" placeholder="Email" required>
+        </div>
+        <div>
+
+            <input type="password" name="password" id="password" minlength="6" pattern="[a-zA-Z ,.0-9]*" placeholder="Password"
+                required>
+        </div>
+            <div class="izk"><input type="checkbox" name="aceptar" id="aceptar" value="1"><label for="aceptar"> I agree to the <a href="#">
+                    Terms and Conditions</a> and <a href="#"> Privacy Policy</a></label>
+         </div>
+        <div class="der">
+            <button>Create Account</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
